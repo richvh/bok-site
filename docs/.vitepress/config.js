@@ -67,6 +67,7 @@ export default {
       text: 'Edit this page on GitHub',
     },
     lastUpdatedText: 'Updated Date',
+    outline: 'deep',
   },
 
     // root: string
