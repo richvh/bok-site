@@ -1,1 +1,7 @@
-# Berserker
+---
+title: Berserker
+editLink: true
+prev: false
+next: false
+---
+# {{ $frontmatter.title }}

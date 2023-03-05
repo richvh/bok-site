@@ -1,8 +1,10 @@
 ---
-
+title: This Site
+editLink: true
+prev: false
+next: false
 ---
-
-# This site
+# {{ $frontmatter.title }}
 
 The site is built using Vitepress software and runs on the Cloudflare infrastructure.
 

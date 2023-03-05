@@ -1,3 +1,11 @@
+---
+title: Getting Started
+editLink: true
+prev: false
+next: false
+---
+# {{ $frontmatter.title }}
+
 
 # The standard Lorem Ipsum passage, used since the 1500s
 

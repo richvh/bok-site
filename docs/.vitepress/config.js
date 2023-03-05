@@ -118,6 +118,7 @@ export default {
         items: [
           { text: 'This Site', link: '/pages/this-site' },
           { text: 'Embers Adrift', link: '/embers-adrift' },
+          { text: 'Todo', link: '/todo' },
         ]
       },
     ],
