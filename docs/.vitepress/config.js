@@ -36,17 +36,33 @@ export default {
     sidebar: [
       {
         text: 'Gameplay',
+        collapsed: false,
         items: [
           { text: 'Getting Started', link: '/pages/getting-started' },
           { text: 'Tips', link: '/pages/tips' },
-          { text: 'Class Guides', link: '/pages/tips' },
-        ]
+          { text: 'Zones', link: '/temp' },
+          {
+            text: 'Classes',
+            link: '/pages/classes',
+            collapsed: true,
+            items: [
+              { text: 'Juggernaut', link: '/temp' },
+              { text: 'Marshall', link: '/temp' },
+              { text: 'Knight', link: '/classes' },
+              { text: 'Warlord', link: '/temp' },
+              { text: 'Duelist', link: '/temp' },
+              { text: 'Sentinel', link: '/classes' },
+              { text: 'Brigand', link: '/temp' },
+              { text: 'Berserker', link: '/temp' },
+              { text: 'Warden', link: '/classes' },
+            ]
+          },
+        ],
       },
       {
         text: 'Database',
+        collapsed: false,
         items: [
-          { text: 'Zones', link: '/temp' },
-          { text: 'Classes', link: '/temp' },
           { text: 'Quests', link: '/temp' },
           { text: 'Items', link: '/temp' },
           { text: 'NPCs', link: '/temp' },
@@ -55,6 +71,7 @@ export default {
       },
       {
         text: 'About',
+        collapsed: true,
         items: [
           { text: 'This Site', link: '/temp' },
           { text: 'Embers Adrift', link: '/temp' },
