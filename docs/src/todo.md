@@ -20,3 +20,6 @@ add creatures
 
 add cross references with items to quests and creatures and vice versa
 
+decide how to use the top menu
+
+vue component for images

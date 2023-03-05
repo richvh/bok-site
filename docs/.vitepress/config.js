@@ -14,11 +14,15 @@ export default {
   markdown: {
     lineNumbers: false
   },
+  prev: false,
+  next: false,
   // outDir: './.vitepress/dist',
   // cacheDir: './.vitepress/cache',
-  // srcDir: '.',
+  srcDir: './src',
 
   themeConfig: {
+    prev: false,
+    next: false,
     tempDir: '/var/tmp/vitepress',
     nav: [
       { text: 'faqs', link: '/pages/faqs' },
@@ -99,6 +103,7 @@ export default {
     },
     lastUpdatedText: 'Updated Date',
     outline: 'deep',
+
   },
 
     // root: string
