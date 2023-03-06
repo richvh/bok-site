@@ -25,15 +25,15 @@ export default {
     next: false,
     tempDir: '/var/tmp/vitepress',
     nav: [
-      { text: 'faqs', link: '/pages/faqs' },
+      { text: 'FAQs', link: '/pages/faqs' },
       {
-          text: 'stuff',
+          text: 'Database',
           items: [
-              { text: 'zones', link: '/temp' },
-              { text: 'quests', link: '/temp' },
-              { text: 'items', link: '/temp' },
-              { text: 'npcs', link: '/temp' },
-              { text: 'creatures', link: '/temp' },
+              { text: 'Zones', link: '/zones' },
+              { text: 'Quests', link: '/quests' },
+              { text: 'Items', link: '/items' },
+              { text: 'Npcs', link: '/npcs' },
+              { text: 'Creatures', link: '/creatures' },
           ]
       },
     ],
