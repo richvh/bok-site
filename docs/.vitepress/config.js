@@ -124,7 +124,7 @@ export default {
     ],
     // logo: '/assets/logo.png',
     editLink: {
-      pattern: 'https://github.com/beesofknowledge/bok-site/tree/main/docs/:path',
+      pattern: 'https://github.com/beesofknowledge/bok-site/tree/main/docs/src/:path',
       text: 'Edit this page on GitHub',
     },
     lastUpdatedText: 'Updated Date',
