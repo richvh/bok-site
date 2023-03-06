@@ -1,19 +1,23 @@
 <script>
 export default {
   props: {
-   frontmatter: Object,
+   item: Object,
   }
 }
 </script>
 
 <template>
   <p>
-    Equipment Type: {{ frontmatter.equipmentType }}
+    <template v-for="(value, name) in item.attributes">
+      <div v-if="value">
+        {{ name }}: {{ value }}
+      </div>
+    </template>
   </p>
+
   <p>
-    Armor Class: {{ frontmatter.armorClass }}
+    <MyImageComponent :image="item.image" :alt="item.title" />
   </p>
-  <p>
-    <MyImageComponent :image="frontmatter.image" :alt="frontmatter.title" />
-  </p>
+
+  <!-- <pre>{{ item }}</pre> -->
 </template>
