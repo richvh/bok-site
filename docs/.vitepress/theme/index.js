@@ -1,4 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
+import MyImageComponent from './MyImageComponent.vue'
 
 export default {
   ...DefaultTheme,
@@ -7,10 +8,7 @@ export default {
     DefaultTheme.enhanceApp(ctx)
 
     // register your custom global components
-    ctx.app.component('MyItemComponent')
-    ctx.app.component('MyQuestComponent')
-    ctx.app.component('MyNPCComponent')
-    ctx.app.component('MyCreatureComponent')
+    ctx.app.component('MyImageComponent', MyImageComponent)
   }
 }
 

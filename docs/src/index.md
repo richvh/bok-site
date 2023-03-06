@@ -8,5 +8,7 @@ lastUpdated: false
 
 # Welcome to the Bees of Knowledge!
 
-![Bee and Book](https://img.beesofknowledge.com/beewithbook.jpg)
+<MyImageComponent image="beewithbook.jpg" alt="bee with book"/>
+
+
 
