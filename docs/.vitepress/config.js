@@ -32,8 +32,8 @@ export default {
               { text: 'Zones', link: '/zones' },
               { text: 'Quests', link: '/quests' },
               { text: 'Items', link: '/items' },
-              { text: 'Npcs', link: '/npcs' },
-              { text: 'Creatures', link: '/creatures' },
+              // { text: 'Npcs', link: '/npcs' },
+              // { text: 'Creatures', link: '/creatures' },
           ]
       },
     ],
@@ -108,8 +108,8 @@ export default {
         items: [
           { text: 'Quests', link: '/quests' },
           { text: 'Items', link: '/items' },
-          { text: 'NPCs', link: '/npcs' },
-          { text: 'Creatures', link: '/creatures' },
+          // { text: 'NPCs', link: '/npcs' },
+          // { text: 'Creatures', link: '/creatures' },
         ]
       },
       {
