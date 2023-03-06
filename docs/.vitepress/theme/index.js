@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import MyImageComponent from './MyImageComponent.vue'
 import MyItemComponent from './MyItemComponent.vue'
+import MyQuestComponent from './MyQuestComponent.vue'
 
 export default {
   ...DefaultTheme,
@@ -12,6 +13,7 @@ export default {
     ctx.app
       .component('MyImageComponent', MyImageComponent)
       .component('MyItemComponent', MyItemComponent)
+      .component('MyQuestComponent', MyQuestComponent)
   }
 }
 
