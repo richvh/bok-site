@@ -10,5 +10,3 @@ lastUpdated: false
 
 <MyImageComponent image="beewithbook.jpg" alt="bee with book"/>
 
-
-

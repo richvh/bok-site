@@ -1,11 +1,14 @@
 <script>
 export default {
-  props: ['image', 'alt']
+  props: [
+    'image',
+    'alt',
+  ]
 }
 </script>
 
 <template>
 <p>
-  <img v-bind:src="'https://img.beesofknowledge.com/' + image" v-bind:alt="alt">
+  <img :src="'https://img.beesofknowledge.com/' + image" :alt="alt">
 </p>
 </template>
