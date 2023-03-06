@@ -6,8 +6,8 @@ next: false
 ---
 # {{ $frontmatter.title }}
 
-- [ ] create item vue component
-- [ ] create item template
+- [x] create item vue component
+- [x] create item template
 - [ ] create quest template
 - [ ] create quest vue component
 - [ ] create creature template
@@ -22,4 +22,7 @@ next: false
 - [ ] add creatures
 - [ ] add cross references with items to quests and creatures and vice versa
 - [ ] decide how to use the top menu
-- [ ] vue component for images
+- [x] vue component for images
+- [ ] add favicon
+- [ ] add recently added/updated
+- [ ] remove prev/next from layout
