@@ -127,7 +127,7 @@ export default {
         text: 'About',
         collapsed: true,
         items: [
-          { text: 'This Site', link: '/pages/this-site' },
+          { text: 'This Site', link: '/this-site' },
           { text: 'Embers Adrift', link: '/embers-adrift' },
           { text: 'Todo', link: '/todo' },
         ]
