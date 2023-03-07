@@ -2,13 +2,13 @@
 prev: false
 next: false
 
-title: Green Silk Gloves
-image: green-silk-gloves.png
+title: Queen's Red Gloves
+image: queens-red-gloves.png
 attributes:
   Equipment Type: Hands
-  Armor Class: 2
-  Penetration: 5
-  Required Level: 1
+  Armor Class: 5
+  Healing: 8
+  Required Level: 10
 ---
 
 # {{ $frontmatter.title }}
