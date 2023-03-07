@@ -15,7 +15,7 @@ next: false
 <!-- - [ ] create creature vue component -->
 <!-- - [ ] create npc template -->
 <!-- - [ ] create npc vue component -->
-- [ ] create vue file to scan folder for quests, items, creatures, npcs pages
+- [ ] create script to file to scan folder for quests, items
 - [ ] add search
 - [ ] add quests
 - [ ] add items

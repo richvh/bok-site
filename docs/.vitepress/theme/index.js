@@ -2,6 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import MyImageComponent from './MyImageComponent.vue'
 import MyItemComponent from './MyItemComponent.vue'
 import MyQuestComponent from './MyQuestComponent.vue'
+import ItemCard from './ItemCard.vue'
 
 export default {
   ...DefaultTheme,
@@ -14,6 +15,7 @@ export default {
       .component('MyImageComponent', MyImageComponent)
       .component('MyItemComponent', MyItemComponent)
       .component('MyQuestComponent', MyQuestComponent)
+      .component('ItemCard', ItemCard)
   }
 }
 

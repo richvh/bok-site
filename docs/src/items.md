@@ -5,8 +5,16 @@ prev: false
 next: false
 lastUpdated: false
 ---
+<script setup>
+  import items from '../data/items.json'
+</script>
+
 # {{ $frontmatter.title }}
 
-Link to sample item: [Green Silk Gloves](./items/green-silk-gloves)
+<div v-for="(item, index) in items" :key="index">
+  <ItemCard :title="item.title" :href="item.path" />
+</div>
+
+<!-- <pre>{{ items }}</pre> -->
 
 
