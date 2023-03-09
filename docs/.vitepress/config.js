@@ -42,9 +42,17 @@ export default {
         text: 'Gameplay',
         collapsed: false,
         items: [
-          { text: 'Getting Started', link: '/getting-started' },
-          { text: 'Tips', link: '/tips' },
-          { text: 'FAQs', link: '/faqs' },
+          // { text: 'Getting Started', link: '/getting-started' },
+          // { text: 'Tips', link: '/tips' },
+          // { text: 'FAQs', link: '/faqs' },
+          {
+            text: 'Guides',
+            // link: '/zones',
+            collapsed: true,
+            items: [
+              { text: 'Eryola\'s Ultimate Duelist Guide', link: '/guides/eryolas-ultimate-duelist-guide' },
+            ],
+          },
           {
             text: 'Zones',
             link: '/zones',
@@ -79,38 +87,38 @@ export default {
               { text: 'Redshore Ridge', link: '/dungeons/redshore-ridge' },
             ],
           },
-          {
-            text: 'Classes',
-            link: '/classes',
-            collapsed: true,
-            items: [
-              { text: 'Juggernaut', link: '/classes/juggernaut' },
-              { text: 'Marshal', link: '/classes/marshal' },
-              { text: 'Knight', link: '/classes/knight' },
-              { text: 'Warlord', link: '/classes/warlord' },
-              { text: 'Duelist', link: '/classes/duelist' },
-              { text: 'Sentinel', link: '/classes/sentinel' },
-              { text: 'Brigand', link: '/classes/brigand' },
-              { text: 'Berserker', link: '/classes/berserker' },
-              { text: 'Warden', link: '/classes/warden' },
-            ]
-          },
-          {
-            text: 'Professions',
-            link: '/professions',
-            collapsed: true,
-            items: [
-              { text: 'Hunter', link: '/professions/hunter' },
-              { text: 'Forester', link: '/professions/forester' },
-              { text: 'Prospector', link: '/professions/prospector' },
-              { text: 'Tinker', link: '/professions/tinker' },
-              { text: 'Weaponsmith', link: '/professions/weaponsmith' },
-              { text: 'Armorsmith', link: '/professions/armorsmith' },
-              { text: 'Outfitter', link: '/professions/outfitter' },
-              { text: 'Provisioner', link: '/professions/provisioner' },
-              { text: 'Woodworker', link: '/professions/woodworker' },
-            ]
-          },
+          // {
+          //   text: 'Classes',
+          //   link: '/classes',
+          //   collapsed: true,
+          //   items: [
+          //     { text: 'Juggernaut', link: '/classes/juggernaut' },
+          //     { text: 'Marshal', link: '/classes/marshal' },
+          //     { text: 'Knight', link: '/classes/knight' },
+          //     { text: 'Warlord', link: '/classes/warlord' },
+          //     { text: 'Duelist', link: '/classes/duelist' },
+          //     { text: 'Sentinel', link: '/classes/sentinel' },
+          //     { text: 'Brigand', link: '/classes/brigand' },
+          //     { text: 'Berserker', link: '/classes/berserker' },
+          //     { text: 'Warden', link: '/classes/warden' },
+          //   ]
+          // },
+          // {
+          //   text: 'Professions',
+          //   link: '/professions',
+          //   collapsed: true,
+          //   items: [
+          //     { text: 'Hunter', link: '/professions/hunter' },
+          //     { text: 'Forester', link: '/professions/forester' },
+          //     { text: 'Prospector', link: '/professions/prospector' },
+          //     { text: 'Tinker', link: '/professions/tinker' },
+          //     { text: 'Weaponsmith', link: '/professions/weaponsmith' },
+          //     { text: 'Armorsmith', link: '/professions/armorsmith' },
+          //     { text: 'Outfitter', link: '/professions/outfitter' },
+          //     { text: 'Provisioner', link: '/professions/provisioner' },
+          //     { text: 'Woodworker', link: '/professions/woodworker' },
+          //   ]
+          // },
         ],
       },
       {
