@@ -310,7 +310,7 @@ Please forgive me for my excellent MS Paint skills...
   </p>
 
   <p>
-    <MyImageComponent image="guides/eryola-redshore.ridge.jpg" alt="Eryola's Redshore Ridge" />
+    <MyImageComponent image="guides/eryola-redshore-ridge.jpg" alt="Eryola's Redshore Ridge" />
   </p>
 
   <p>
