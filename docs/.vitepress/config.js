@@ -25,11 +25,10 @@ export default {
     next: false,
     tempDir: '/var/tmp/vitepress',
     nav: [
-      { text: 'FAQs', link: '/pages/faqs' },
+      // { text: 'FAQs', link: '/pages/faqs' },
       {
           text: 'Database',
           items: [
-              { text: 'Zones', link: '/zones' },
               { text: 'Quests', link: '/quests' },
               { text: 'Items', link: '/items' },
               // { text: 'Npcs', link: '/npcs' },
@@ -47,7 +46,6 @@ export default {
           // { text: 'FAQs', link: '/faqs' },
           {
             text: 'Guides',
-            // link: '/zones',
             collapsed: true,
             items: [
               { text: 'Eryola\'s Ultimate Duelist Guide', link: '/guides/eryolas-ultimate-duelist-guide' },
@@ -55,7 +53,7 @@ export default {
           },
           {
             text: 'Zones',
-            link: '/zones',
+            // link: '/zones',
             collapsed: true,
             items: [
               { text: 'Newhaven Valley', link: '/zones/newhaven-valley' },
@@ -69,7 +67,7 @@ export default {
           },
           {
             text: 'Dungeons',
-            link: '/dungeons',
+            // link: '/dungeons',
             collapsed: true,
             items: [
               { text: 'Newhaven Valley Central Veins', link: '/dungeons/newhaven-valley-central-veins' },
