@@ -1,3 +1,4 @@
+
 export default {
   appearance: true,
   base: '/',
@@ -14,11 +15,9 @@ export default {
   markdown: {
     lineNumbers: false
   },
-  prev: false,
-  next: false,
   // outDir: './.vitepress/dist',
   // cacheDir: './.vitepress/cache',
-  srcDir: './src',
+  // srcDir: './src',
 
   themeConfig: {
     prev: false,
@@ -51,6 +50,12 @@ export default {
               { text: 'Eryola\'s Ultimate Duelist Guide', link: '/guides/eryolas-ultimate-duelist-guide' },
             ],
           },
+        ],
+      },
+      {
+        text: 'Maps',
+        collapsed: false,
+        items: [
           {
             text: 'Zones',
             // link: '/zones',
