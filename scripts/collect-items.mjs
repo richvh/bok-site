@@ -1,22 +1,21 @@
 import fs from 'node:fs/promises'
 import matter from 'gray-matter'
 
-const items = await fs.readdir('./docs/src/items/')
+const items = await fs.readdir('./docs/items/')
 
 const data = await Promise.all(
   items.map(async (item) => {
-    const file = matter.read(`./docs/src/items/${item}`, {
+    const file = matter.read(`./docs/items/${item}`, {
     })
 
     const { data, excerpt, path } = file
-    // const contents = removeMd(excerpt).trim().split(/\r\n|\n|\r/)
 
     return {
       ...data,
-      path: path.replace(/\.\/docs\/src\//, '').replace(/\.md$/, ''),
+      path: path.replace(/\.\/docs/, '').replace(/\.md$/, ''),
     }
   })
 )
 
-await fs.writeFile('./docs/data/items.json', JSON.stringify(data), 'utf-8')
+await fs.writeFile('./docs/.vitepress/data/items.json', JSON.stringify(data), 'utf-8')
 
