@@ -18,14 +18,17 @@ next: false
 - [x] redirect www to non-www with path
 - [x] create script to file to scan folder for items
 - [x] create script to file to scan folder for quests
-- [ ] add search
+- [x] add basic search
 - [ ] add quests
-- [ ] add items
+- [x] add items
+- [ ] modify the quest component to include the title
 <!-- - [ ] add npcs -->
 <!-- - [ ] add creatures -->
 - [ ] remove prev/next from layout
 - [ ] decide how to use the top menu
 - [ ] add favicon
-- [ ] add recently added/updated
-- [ ] add cross references with items to quests and creatures and vice versa
+- [ ] switch item and quest components to page layouts?
+- [ ] add recent changes to the front page
+- [ ] add cross references with items to quests and vice versa
+- [ ] move the outline from the aside to the main content on the faqs page
 
