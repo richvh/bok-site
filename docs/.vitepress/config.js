@@ -42,7 +42,7 @@ export default {
         items: [
           // { text: 'Getting Started', link: '/getting-started' },
           // { text: 'Tips', link: '/tips' },
-          // { text: 'FAQs', link: '/faqs' },
+          { text: 'FAQs', link: '/faqs' },
           {
             text: 'Guides',
             collapsed: true,
