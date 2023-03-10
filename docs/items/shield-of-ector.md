@@ -13,7 +13,7 @@ attributes:
   Threat: x+1.1
 ---
 
-# {{ $frontmatter.title }}
+
 
 <MyItemComponent :item="$frontmatter" />
 

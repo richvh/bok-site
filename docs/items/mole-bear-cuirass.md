@@ -13,7 +13,7 @@ attributes:
   Required Level: 25
 ---
 
-# {{ $frontmatter.title }}
+
 
 <MyItemComponent :item="$frontmatter" />
 

@@ -11,7 +11,7 @@ attributes:
   Flanking: 4
 ---
 
-# {{ $frontmatter.title }}
+
 
 <MyItemComponent :item="$frontmatter" />
 

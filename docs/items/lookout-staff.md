@@ -9,7 +9,7 @@ attributes:
   Hit: 10
 ---
 
-# {{ $frontmatter.title }}
+
 
 <MyItemComponent :item="$frontmatter" />
 

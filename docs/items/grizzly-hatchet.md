@@ -9,7 +9,7 @@ attributes:
   Required Level: 10
 ---
 
-# {{ $frontmatter.title }}
+
 
 <MyItemComponent :item="$frontmatter" />
 

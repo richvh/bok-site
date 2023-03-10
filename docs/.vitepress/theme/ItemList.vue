@@ -15,7 +15,7 @@
     <ItemCard :title="item.title" :href="item.path" />
   </div>
 
-  <pre>{{ items }}</pre>
+  <!-- <pre>{{ items }}</pre> -->
 
 </template>
 
