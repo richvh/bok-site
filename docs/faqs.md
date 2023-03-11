@@ -34,7 +34,7 @@ There is no compass. There is a large blue planet in the sky named the Eye of Ib
 
 If you take enough damage to have zero health you will become unconscious. You will remain unconscious for three minutes unless you are revived by another player. Supporters and Wardens can use heals to revive you, but others must use smelling salts.
 
-If you are not revived when the timer runs out, or if you press the respawn button, you will return to the nearest Hallows that you have visited.
+If you are not revived when the timer runs out, or if you press the respawn button, you will return to the nearest Hallows that you have visited. You will not have access to your bag (or the items or money in it) until you return to your point of death and recover it. If you choose to abandon it, you will permanently lose whatever items or money was in the bag.
 
 After being revived you will lose 5% of your maximum health. If you respawn, you will lose 15% of your maximum health.
 
